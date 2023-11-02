@@ -1,7 +1,7 @@
 
 body {
     /* background-color: black; */
-    background: linear-gradient(to right, #117f2b, #237558, #3d9c42);
+    background: linear-gradient(to right, #19b43d, #068d5e, #0a9e12);
     /* background-image: url("bg1.jpg") no-repeat center center/cover; */
     /* background-repeat: no-repeat; */
     font-family: 'Audiowide';
@@ -24,7 +24,7 @@ body {
     border-radius: 10px;
     font-size: 15px;
     background-color: rgba(0, 0, 0, 0.993);
-    box-shadow: 0px 0px 33px red;
+    box-shadow: 0px 0px 33px rgb(0, 238, 255);
 }
 
 #form h1 {
@@ -85,13 +85,15 @@ body {
 
 #form button:hover{
     background-color: black;
+    border: 2px solid cyan;
+    color: rgb(81, 236, 81);
 }
 
 #form h1:hover{
     transform: scale(1.1) ;
 
 }
-
+ 
 #form:hover{
     transform: scale3d(1.1,1.2,1.1);
 }
