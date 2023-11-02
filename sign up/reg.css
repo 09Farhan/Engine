@@ -1,8 +1,19 @@
 
 body {
+    /* background-color: black; */
     background: linear-gradient(to right, #117f2b, #237558, #3d9c42);
-    font-family: 'Poppins', sans-serif;
+    /* background-image: url("bg1.jpg") no-repeat center center/cover; */
+    /* background-repeat: no-repeat; */
+    font-family: 'Audiowide';
+    /* font-family: 'Poppins', sans-serif; */
 }
+/* #body::before{
+    
+      background-image: url("bg1.jpg") no-repeat center center/cover;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+} */
 
 #form {
     transition: transform .4s ease;
@@ -12,11 +23,12 @@ body {
  
     border-radius: 10px;
     font-size: 15px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.993);
+    box-shadow: 0px 0px 33px red;
 }
 
 #form h1 {
-    color: #0f2027;
+    color: #6ece8b;
     text-align: center;
 }
 
@@ -68,6 +80,7 @@ body {
 
 .lala{
     transition: transform .3s ease;
+
 }
 
 #form button:hover{
@@ -92,4 +105,9 @@ body {
 }
 .checkbox{
     gap: 10px
+}
+
+
+.container{
+    color: white;
 }
