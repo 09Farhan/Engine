@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CBDC Payment App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="wallet">
+
+        <div class="idd">
+        <h3>Id: bai3e48rjtidnkknd</h3> 
+        </div>
+        <div class="box1">
+            <h3>Your Wallet Balance: <span id="balance">95</span> Rs</h3>
+        </div>
+</div>
+    <div class="transaction">
+        <input type="text" id="receiverId" placeholder="Receiver's Unique ID">
+        <input type="number" id="amount" placeholder="Amount (Rs)">
+        <button id="sendButton">Send Money</button>
+    </div>
+    <div class="transaction-history">
+        <h3>Transaction History</h3>
+        <ul id="historyList">
+            <div><h4>Transaction:abcd1234</h4></div>
+            <div></div><h4>sent</h4><div></div>
+            <div id="amt"><h5>Rs.5</h5></div>
+        </ul>
+    </div>
+
+   
+    <script src="server.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
