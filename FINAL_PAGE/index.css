@@ -1,0 +1,520 @@
+* {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.nav-bar {
+    height: 90px;
+    width: 104%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfd;
+    color: #212529;
+    border-bottom: 1px solid rgb(236, 239, 239);
+    position:fixed;
+    top: 0;
+    z-index: 500;
+
+}
+
+.space {
+    width: 100%;
+    height: 90px;
+}
+
+.nav-bar-int {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+}
+
+.nav-logo {
+    width: 232.5px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(logopay.png);
+    width: 281px;
+    height: 237px;
+    background-size: contain;
+}
+
+/* .empty-space-nav {
+    width: 100%;
+    height: 50px;
+} */
+
+.menu-items {
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 550;
+    font-size: 1rem;
+    color: #585371;
+    text-align: center;
+}
+
+.menu-items a {
+    display: inline;
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.Login {
+    background-color: #237558;
+    width: 73.5px;
+    height: 43.5px;
+    padding: 4px 17px 8px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+.turnBlue:hover {
+    color: #23d295;
+}
+
+/* Hero Section */
+
+
+.hero-section1 {
+    height: 570px;
+    background-color: #fbfbfd;
+    display: flex;
+}
+
+.text-area-1 {
+    /* background-color: red; */
+    height: 570px;
+    width: 50%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 90px;
+}
+
+.img-area-1 {
+    background-image: url(hero-page-img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 570px;
+    width: 50%;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.text111 {
+    font-weight: 700;
+    font-size: 3.375rem;
+}
+
+.text12 {
+    width: 500px;
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.text13 {
+    font-size: 1.17rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.download-img {
+    /* background-color: blue; */
+    height: 70px;
+    width: 400px;
+    background-image: url(https://quantifyfitness.com/wp-content/uploads/download-app-store.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.downloads {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text13 {
+    margin-bottom: 14px;
+}
+
+.image-area-01{
+    margin-top: 50px;
+    margin-right: 100px;
+}
+/* Second part of hero portion of the web site */
+
+.main-bg {
+    background-image: url();
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-position-y: 180px;
+    height: 750px;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.hero-section2 {
+    margin-top: 100px;
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.about_us{
+    margin-left: 90px;
+    margin-right: 60px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+.about_head{
+    margin-bottom: 40px;
+}
+
+.about_head h1{
+    font-size: 50px;
+}
+.heading2 {
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.space-creator {
+    height: 6px;
+    width: 37px;
+    background-color: #237558;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+}
+
+.img-content {
+    height: 285px;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.text-content {
+    height: 285px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    /* background-color: #585371; */
+}
+
+.section-content {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 70px;
+    position: relative;
+    z-index: 1;
+
+}
+
+#sec-con2 {
+    padding-left: 300px;
+}
+
+.main-secc {
+    margin-top: 80px;
+}
+
+.small-img {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+
+.tc {
+    font-size: 1.3rem;
+    margin-left: 15px;
+}
+
+.line {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.txt {
+    font-size: 1rem;
+    color: #8d8b97;
+    margin-top: 15px;
+}
+
+/* Hero Section 3 */
+
+.hero-section3 {
+    margin-top: 100px;
+    height: 2000px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.small-img-2 {
+    height: 4px;
+    width: 30px;
+    background-color: #237558;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+}
+
+.tc2 {
+    font-size: 1.3rem;
+    /* margin-left: 15px; */
+}
+
+.third {
+    padding-left: 300px;
+}
+
+.antistick {
+    margin-left: 75px;
+}
+
+
+/* Hero Section 4  */
+.hero-section4 {
+    display: flex;
+    height: 450px;
+    width: 100%;
+    background-image: linear-gradient(250deg,#237558,#58dcae,#237558);
+    align-items: center;
+    
+}
+
+.hero-sec4img {
+    /* background-image: url(); */
+    height: 100%;
+    width: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.div-up {
+    font-size: 2rem;
+    color: white;
+    width: 400px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.div-down {
+    font-size: 1.5rem;
+    color: white;
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+/* Hero Section 5  */
+
+.hero-section5 {
+    height: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+
+.master5-2-2 {
+    background-image: url(https://th.bing.com/th/id/R.ad72b7fecbe0de6526bdde511965ff04?rik=%2bZcPTM8g%2bKiTmQ&riu=http%3a%2f%2fentechdesigns.com%2fnew_site%2fwp-content%2fthemes%2fen-tech%2fimages%2fnot_available_icon.jpg&ehk=UI0frGbrfodEmx3CUtAoVkW7kPtvieYdu3SuVf0niHk%3d&risl=&pid=ImgRaw&r=0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+}
+
+.master5-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .master5-2 {
+    display: flex;
+} */
+
+.box1 {
+    height: 120px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-art {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.txt-art {
+    font-size: 1.1rem;
+}
+
+.line-box-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-between;
+    width: 550px;
+    margin-left: 100px;
+}
+
+.master5-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    margin-left: -13px;
+    margin-top: 30px;
+}
+
+/* Hero Section 6 */
+
+.hero-section6 {
+    display: flex;
+    height: 205px;
+    width: 100%;
+    background-image: linear-gradient(250deg,#237558,#5fe6b7,#237558);
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.hero-sec6img {
+    background-image: url(https://bharatpe.com/desktop-path/img-webview/ek-bharat-ek-qr@3x.png);
+    height: 100%;
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.div-down6 {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#sign-up {
+    width:170px;
+    height:45px;
+    background-color: white;
+    color: #237558;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* FOOTER  */
+
+footer {
+    height:250px;
+    background-color: #fbfbfd;
+    display: flex;
+}
+
+
+.logo-area {
+    height: 100%;
+    width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 140px;
+}
+.footer_logo{
+    background-image: url(logopay.png);
+    width: 197px;
+    height: 313px;
+    transform: scale(1.2);
+    background-size: contain;
+}
+
+.textt-area {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #8d8b97;
+    text-decoration: none;
+}
+
+ul a:hover{
+    color: black;
+}
+
+.textt-area p{
+    display: inline;
+}
+
+ul p {
+    font-weight: bold;
+}
+
